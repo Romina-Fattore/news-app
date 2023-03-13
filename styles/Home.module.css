@@ -1,3 +1,10 @@
+.about { 
+  font-family: cursive;
+  font-size: larger;
+  color: darkcyan;
+}
+
+
 .main {
   display: flex;
   flex-direction: column;
@@ -102,6 +109,10 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
+}
+
+.container {
+  padding: 0 2rem;
 }
 
 .logo,
